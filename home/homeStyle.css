@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    font-family: "Miedinger W01 Bold";
+}
+
+nav .icons{
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 60px;
+    text-align: left;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+section#destaque{
+    font-family: Futura;
+    font-weight: lighter;
+    color: black;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+section#destaque h1{
+    font-size: 60px;
+    text-align: left;
+    color: black;
+    font-weight: 100;
+} 
+
+.card {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+    border-radius: 25px; 
+}
+
+.card img {
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform .2s; 
+}
+
+.card-body{
+    background-color: #FFD2D2;
+}
+
+.card-body a{
+    background-color: red;
+    font-size: 11px;
+}
+
+.card-title {
+    font-size: 200%;
+    min-height: 60px;
+}
+
+.card-text {
+    font-size: 100%;
+    min-height: 20px;
+}
+
+.card-deck{
+    display: flex;
+}
+
+.redText{
+    color: red;
+}
+
+.Preço{
+    font-size: 25px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 100%;
+    padding: 0 20px; 
+}
+
+.container.mt-5{
+    margin-right: 20%;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: red;
+    background-size: 30px 30px; 
+}
+
+.carousel-control-prev-icon {
+    margin-left: -15px; 
+}
+
+.carousel-control-next-icon {
+    margin-right: -15px; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.vantagensContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.vantagensContainer h3{
+    font-family: Futura;
+    font-weight: lighter;
+    color: black;
+}
+
+
+footer{
+    background-color: #BEBCBC;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Miedinger W01 Bold";
+    justify-content: space-around;
+}
+
+footer .socials{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+}
+
+footer h4, p{
+    font-family: Futura;
+    font-weight: lighter;
+    color: black;
+}
+
+footer .contactIcons{
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+footer .contactInfo{
+    line-height: 15px;
+}
+
+footer .newsletter{
+    margin-left: 43%;
+    
+}
+
+footer .newsletter input[type=email]{
+    background: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    font-family: "Miedinger W01 Bold";
+}
+
+footer .newsletter input[type=submit]{
+    background:red;
+    margin-top: 18px;
+    border: 0;
+    display: flex;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: "Miedinger W01 Bold";
+}
+
+.phoneContainer{
+    display: flex;
+    align-items: center;
+}

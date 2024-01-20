@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Miedinger W01 Bold";
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    
+}
+
+nav .icons{
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 60px;
+    text-align: left;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.searchBar input[type="submit"] {
+    display: block;
+    border-radius: 15px; 
+    background-color: red; 
+    color: white; 
+    padding: 15px 0;
+    border: none;
+    width: 150px;
+}
+
+.searchBar input[type="text"]{
+    border-radius: 10px;
+    height: 30px;
+}
+
+.card {
+    margin: 0 auto; 
+    margin-top: 50px;
+    width: 70%;
+    border-radius: 25px; 
+}
+
+.card img {
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform .2s; 
+}
+
+.card-body{
+    background-color: #FFD2D2;
+}
+
+.card-body a{
+    background-color: red;
+    font-size: 11px;
+}
+
+.redText{
+    color: red;
+    font-family: Futura;
+}
+
+.Preço{
+    font-size: 25px;
+    color: red;
+    font-family: Futura;
+}
+
+.h5, h5{
+    font-family: Futura;
+    font-size: 200%;
+}
+
+footer{
+    background-color: #BEBCBC;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+footer .socials{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+}
+
+footer h4, p{
+    font-family: Futura;
+    font-weight: lighter;
+    color: black;
+}
+
+footer .contactIcons{
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+footer .contactInfo{
+    line-height: 15px;
+}
+
+footer .newsletter{
+    margin-left: 43%;
+}
+
+footer .newsletter input[type=email]{
+    background: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+}
+
+footer .newsletter input[type=submit]{
+    background:red;
+    margin-top: 18px;
+    border: 0;
+    display: flex;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+}

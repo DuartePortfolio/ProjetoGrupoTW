@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Miedinger W01 Bold";
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+    margin-bottom: 80px;
+}
+
+nav .icons{
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 60px;
+    text-align: left;
+    color: white;
+}
+
+nav h3{
+    font-size: 1.75rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px; /* Adjust this value to keep the roundness of the corners proportional */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15); /* Adjust these values to keep the drop shadow proportional */
+    padding: 200px 500px; /* Adjust this value to change the height of the form */
+    width: 900px; /* Half of the width of the page */
+    margin: auto; /* This will center the box horizontally */
+}
+
+.login input[type="text"], .login input[type="password"] {
+    border-radius: 20px; /* Adjust this value to change the roundness of the corners of the input fields */
+    margin-bottom: 10px; /* This will add some space between the input fields */
+    width: 500px;
+    padding: 10px 0;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+}
+
+.login form input[type="submit"] {
+    display: block;
+    margin: auto;
+    border-radius: 15px; 
+    background-color: red; 
+    color: white; 
+    padding: 15px 0;
+    border: none;
+    margin-top: 30px;
+    width: 150px;
+    
+}
+
+.optionsLogin a{
+    color: red;
+    position: relative;
+}
+
+.optionsLogin a{
+    white-space: nowrap;
+}
+
+.optionsLogin hr{
+    width: 150%;
+    margin: auto;
+    left: -25%;
+    position: relative;
+}
+
+.login h2{
+    white-space: nowrap;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.login h1{
+    white-space: nowrap;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    font-size: 50px;
+    color: red;
+}
+
+section#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+}
+
+
+footer{
+    background-color: #BEBCBC;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+footer .socials{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+}
+
+footer h4, p{
+    font-family: Futura;
+    font-weight: lighter;
+    color: black;
+}
+
+footer .contactIcons{
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+footer .contactInfo{
+    line-height: 15px;
+}
+
+footer .newsletter{
+    margin-left: 43%;
+}
+
+footer .newsletter input[type=email]{
+    background: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+}
+
+footer .newsletter input[type=submit]{
+    background:red;
+    margin-top: 18px;
+    border: 0;
+    display: flex;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
