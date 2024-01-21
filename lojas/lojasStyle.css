@@ -50,22 +50,22 @@ section#lojasFisicas h1{
 }
 
 .card {
-    margin: 0 auto; /* This will center the card horizontally */
+    margin: 0 auto; 
     margin-top: 50px;
     width: 70%;
     border-radius: 25px; 
 }
 
 .card img {
-    height: 200px; /* This will set a fixed height for the images */
-    object-fit: cover; /* This will scale the images to cover the available space, while maintaining their aspect ratio */
-    border-top-left-radius: 15px; /* This will round the top left corner of the image */
-    border-top-right-radius: 15px; /* This will round the top right corner of the image */
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
 }
 
 .card:hover {
-    transform: scale(1.05); /* This will scale the card up to 105% of its original size */
-    transition: transform .2s; /* This will animate the scaling effect over 0.2 seconds */
+    transform: scale(1.05);
+    transition: transform .2s; 
 }
 
 .card-body{
