@@ -21,9 +21,7 @@ nav .icons{
     justify-content: space-between;
 }
 
-nav h3{
-    font-size: 1.17em;
-}
+
 
 
 nav h1{
@@ -37,16 +35,91 @@ nav a{
     text-decoration: none;
 }
 
+.card {
+    margin: 100px; 
+    width: 20%;
+    border-radius: 25px;
+    float: right;
+    text-align: right;
+}
+
+.redText{
+    color: red;
+}
+
+.Preço{
+    font-size: 25px;
+    color: red;
+}
+.viewAllButton {   
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-family: "Miedinger W01 Bold";
+}
+
+.viewAllButton :hover{
+    background-color: #FFD2D2;
+    color: red;
+}
+
+.card img {
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+
+.text-box {
+    font-family: 'Futura';
+    background-color: #f8f4f4;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-body{
+    background-color: #FFD2D2;
+    border-radius: 25px;
+}
+
+.card-body a{
+    background-color: red;
+    font-size: 11px;
+}
+
+.card-title {
+    font-size: 200%;
+    min-height: 60px;
+}
+
+.card-text {
+    font-size: 100%;
+    min-height: 20px;
+}
+
+.card-deck{
+    display: flex;
+}
+
+.redText{
+    color: red;
+}
+
 footer{
     background-color: #BEBCBC;
     color: #fff;
     padding: 20px 0;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: auto;
     padding-top: 60px;
     display: flex;
     align-items: center;
+    font-family: "Miedinger W01 Bold";
+    justify-content: space-around;
 }
 
 footer .socials{

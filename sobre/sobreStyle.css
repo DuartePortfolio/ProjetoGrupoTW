@@ -21,8 +21,9 @@ nav .icons{
     justify-content: space-between;
 }
 
+
 nav h3{
-    font-size: 1.17em;
+    font-size: 1.75rem;
 }
 
 
@@ -43,10 +44,12 @@ footer{
     padding: 20px 0;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: auto;
     padding-top: 60px;
     display: flex;
     align-items: center;
+    font-family: "Miedinger W01 Bold";
+    justify-content: space-around;
 }
 
 footer .socials{
@@ -94,4 +97,94 @@ footer .newsletter input[type=submit]{
     color: #FFFFFF;
     border-radius: 5px;
     padding: 15px 25px;
+}
+
+section {
+    padding: 2%;
+}
+
+section#sobre h4, p{
+    font-family: Futura;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+section#sobre h3, p{
+    color: red;
+}
+
+hr {
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+  }
+
+.person {
+    width: 270px;
+    height: 400px;
+}
+
+.photo {
+    border-radius: 80px;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 100%;
+    color: red;
+    font-family: "Miedinger W01 Bold";
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.work {
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email {
+    width: 100%;
+    color: red;
+    font-family: Futura;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.equipa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.membro {
+    text-align: center;
+    margin: 0 20px; 
+}
+
+.membro img {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.contactemail{
+    color: red;
+    font-family: Futura;
+    font-size: 25px;
+}
+
+.membro h2{
+    color: black;
+    font-size: 25px;
+}
+
+.membro h4{
+    color: black;
+    font-size: 25px;
 }

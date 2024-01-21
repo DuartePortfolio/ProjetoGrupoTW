@@ -54,12 +54,27 @@ section#destaque h1{
     border-radius: 25px; 
 }
 
+.viewAllButton {   
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-family: "Miedinger W01 Bold";
+}
+
+.viewAllButton :hover{
+    background-color: #FFD2D2;
+    color: red;
+}
+
 .card img {
     height: 200px; 
     object-fit: cover; 
     border-top-left-radius: 15px; 
     border-top-right-radius: 15px; 
 }
+
 
 .card:hover {
     transform: scale(1.05); 
@@ -73,6 +88,7 @@ section#destaque h1{
 .card-body a{
     background-color: red;
     font-size: 11px;
+    font-family: "Miedinger W01 Bold";
 }
 
 .card-title {
@@ -223,3 +239,4 @@ footer .newsletter input[type=submit]{
     display: flex;
     align-items: center;
 }
+
